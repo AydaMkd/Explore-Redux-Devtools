@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { RootStateOrAny,useSelector, useDispatch } from 'react-redux'
+import {useSelector, useDispatch } from 'react-redux'
 import { addTodo, removeOne, cleartodo } from './features/todoSlice'
 
 
